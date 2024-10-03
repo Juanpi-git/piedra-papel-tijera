@@ -1,0 +1,21 @@
+{
+  "name": "piedra-papel-tijera",
+  "source": "src/index.html",
+  "version": "1.0.0",
+  "description": "",
+  "scripts": {
+    "dev": "parcel",
+    "build": "parcel build --dist-dir build --public-url /piedra-papel-tijera",
+    "deploy": "gh-pages -d build",
+    "build & deploy": "parcel build --dist-dir build -public-url /piedra-papel-tijera && gh-pages -d build "
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "parcel": "^2.10.2"
+  },
+  "dependencies": {
+    "gh-pages": "^6.0.0"
+  }
+}
